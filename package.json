@@ -1,0 +1,48 @@
+{
+  "name": "carbites-cli",
+  "version": "0.0.0",
+  "description": "CLI tool for splitting a single CAR into multiple CARs from the comfort of your terminal.",
+  "main": "bin/carbites.js",
+  "type": "module",
+  "bin": {
+    "carbites": "bin/carbites.js"
+  },
+  "author": "Alan Shaw",
+  "license": "(Apache-2.0 AND MIT)",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "@ipld/car": "^3.0.1",
+    "carbites": "^1.0.5",
+    "bytes": "^3.1.0",
+    "meow": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/bytes": "^3.1.0",
+    "standard": "^16.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nftstorage/carbites-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nftstorage/carbites-cli/issues"
+  },
+  "homepage": "https://github.com/nftstorage/carbites-cli#readme",
+  "keywords": [
+    "car",
+    "content",
+    "archive",
+    "CID",
+    "IPLD",
+    "multiformats",
+    "chunk",
+    "chunker",
+    "chunking",
+    "split",
+    "splitter",
+    "cli",
+    "terminal"
+  ]
+}
