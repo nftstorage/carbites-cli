@@ -22,6 +22,9 @@ carbites split big.car --size 100MB --strategy simple # (default size & strategy
 carbites join big-0.car big-1.car ...
 # Note: not a tool for joining arbitrary CARs together! The split CARs MUST
 # belong to the same CAR and big-0.car should be the first argument.
+
+# If you are looking to split a CAR to fit under the NFT.Storage 100MB limit using the HTTP API, use:
+carbites split example.car --size 10MB --strategy treewalk
 ```
 
 ## Contribute
