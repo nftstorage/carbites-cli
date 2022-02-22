@@ -2,7 +2,7 @@
 
 import meow from 'meow'
 import fs from 'fs'
-import { pipeline } from 'stream/promises'
+import { pipeline } from 'stream'
 import bytes from 'bytes'
 import { CarIndexedReader } from '@ipld/car'
 import { SimpleCarSplitter, SimpleCarJoiner } from 'carbites/simple'
