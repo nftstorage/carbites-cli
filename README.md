@@ -7,6 +7,7 @@
 CLI tool for splitting a single CAR into multiple CARs from the comfort of your terminal.
 
 ## Install
+Make sure you have installed Node.js higher than v15.0.0.
 
 ```sh
 npm install -g carbites-cli
